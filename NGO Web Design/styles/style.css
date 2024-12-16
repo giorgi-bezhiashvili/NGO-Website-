@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.menupic{
+    height: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto" , sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button:hover{
+    cursor:grab;
+}
+
+.logo{
+    font-weight: 700;
+    margin-left: 110px;
+}
+.marki{
+    font-family: "courgette" , sans-serif;
+    background-color: #ffffff;
+}
+.donatebtn{
+    margin-right: 110px;
+    width: 115px;
+    height: 43px;
+    background-color: #1D2130;
+    color: #ffffff;
+    border-radius: 4px;
+    border-color: #1D2130;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    width: 100%;
+}
+.li1{
+    margin-top: 16px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fsection{
+    background-image: url(./BG\ Image.png)   ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 715px;
+    padding-top: 124.52px;
+    padding-left: 110px;
+}
+.fsectiontext{
+    color: #ffffff;
+    font-size: 48px;
+}
+.wwd{
+    background-color: #ffffff;
+    color: #1D2130;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 62.69px;
+    border: none;
+    border-radius: 4px;
+}
+.playvid{
+    display: flex;
+    color: #ffffff;
+}
+.pvid{
+    color: #ffffff;
+}
+.playbtn{
+    background: none;
+    width: 140px;
+    height:40px;
+    border: none;
+    margin-left: 24px;
+}
+.playbtn:hover{
+    background-color: black;
+    cursor: grabbing;
+    transition: 5s;
+}
+.chuc{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 185.39px;
+}
+.thline{
+    background-color: #E5E5E5;
+    border: 1px;
+    width: 836px;
+    height: 1px;
+    margin-top: 197.06px;
+    margin-left: 20px;
+}
+.btmdiv{
+    display: flex;
+}
+.donateions{
+    margin-top: 190.06px;
+    margin-left: 18px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.knowp{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D2130;
+}
+.know{
+    padding-top: 180px;
+    padding-left: 217px;
+    display: flex;
+}
+.knowh2{
+    font-size: 48px;
+    font-weight: 700;
+    height: 116px;
+    width: 610px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.infp,.infop{
+    color: #525560;
+    font-size: 16px;
+    font-weight: 400;
+    width: 608px;
+}
+.infop{
+    margin-top: 32px;
+}
+.peoplepic{
+    margin-left: 86px;
+}
+.learnmore{
+    width: 146px;
+    height: 51px;
+    background-color:#F2C94C ;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+}
+
+.supporters{
+    margin-top: 64px;
+    padding-left: 111px;
+}
+.supimgs{
+    margin-top: 33.51px;
+}
+.whatwedo{
+    margin-top: 74px;
+    padding-top: 96px;
+    padding-left: 206px;
+    background-color: #FCEDC6;
+    display: flex;
+}
+.wwdp{
+    font-size: 48px;
+    width: 608px;
+    margin-top: 32px;
+}
+.wwdpa{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #525560;
+    width: 608px;
+    margin-top: 16px;
+}
+.wwd1{
+    color: #1D2130;
+    font-size: 24px;
+    font-weight: 700;
+}
+.lliwwd{
+    width: 373px;
+    color: #525560;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 96px;
+}
+.wwdpic{
+    width: 480px;
+    height: 658px;
+    border-radius: 20px;
+    margin-left: 96px;
+    margin-bottom: 96.39px;
+    margin-right: 110px;
+}
+.done{
+    margin-top: 96px;
+    margin-left: 110px;
+    padding-left: 116px;
+}
+.pwhdh2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D2130;
+}
+.pwhdp{
+    width: 640px;
+    font-size: 48px;
+    margin-top: 32px;
+
+}
+.prjctrow{
+    margin-top: 65.80px;
+}
+.footerimg{
+    width: 100%;
+    margin-top: 123px;
+    position: relative;
+    padding-top: 115px;
+}
+.imgp{
+    line-height: 57px;
+    font-size: 48px;
+    font-weight: 700;
+    width: 940.63px;
+    position: absolute;
+    margin-top: 3633px;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btns{
+    position: absolute;
+    margin-top: 3817px;
+    margin-left: 544px;
+    top: 50%; 
+
+}
+.fbtn1{
+    height: 51px;
+    width: 200px;
+    background-color: #F2C94C;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.fbtn2{
+    margin-left: 71px;
+    height: 51px;
+    width: 115px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 123px;
+}
+.projectrowphone{
+    display: none;
+}
+.lastsection{
+    margin-top: 123px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+}
+.lastul{
+    list-style: none;
+    margin-left: 102px;
+    margin-top: 24px;
+
+}
+.lastul1{
+    margin-top: 96px;
+    list-style: none;
+    margin-left: 102px;
+}
+.uls{
+    display: flex;
+}
+#logo2{
+    margin-top: 86px;
+}
+.lasth2{
+    width: 440px;
+    font-size: 40px;
+    margin-top: 96px;
+    margin-left: 144px;
+}
+.our-events{
+    display: none;
+}
+.wwdul{
+    list-style: none;
+}
+
+@media all and (max-width :320px){
+    .logo{
+        font-size: 24px;
+        margin-left: 25px;
+    }
+    .marki{
+        font-size: 24px;
+    }
+    .hnul{
+        display: none;
+    }
+    .donatebtn{
+        display: none;
+    }
+    .menupic{
+        height: 39px;
+        width: 54px;
+        margin-right: 11px;
+    }
+    .fsection{
+        height: 476px;
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 0%;
+        padding-top: 132px;
+        text-align: center;
+
+        
+
+    }
+    .fsectiontext{
+        font-size: 32px;
+        
+    }
+    .wwd{
+        margin: 46px auto;
+    }
+    .playbtn{
+        display: none;
+    }
+    .btmdiv{
+        display: none;
+    }
+    .know{
+        margin-top: 60px;
+        margin-left: 17px;
+        display: inline-block;
+        width: 303px;
+        padding: 0%;
+    }
+
+    .knowp{
+        font-size: 6px;
+        margin: 0px;
+       
+    }
+    .knowh2{
+        font-size: 20px;
+        margin-left: 34px;
+        text-align: center;
+        width: 193px;
+    }
+    .infp{
+        font-size: 8px;
+        width: 294px;
+        margin-top: 36px;
+    }
+    .infop{
+        font-size: 8px;
+        width: 294px;
+        margin-top: 12px;
+    }
+    .learnmore{
+        width: 50px;
+        height: 33px;
+        margin-left: 104px;
+        font-size: 8px;
+        color: #E5E5E5;
+    }
+    .peoplepic{
+        width: 273.69px;
+        height: 319px;
+        margin: 86px auto;
+        margin-bottom: 30px;
+ 
+    }
+    .supporters{
+        display: none;
+    }
+    .whatwedo{
+        display: block;
+        padding: 20px;
+
+        margin-top: 30px;
+    }
+    .wwdul{
+        display: none;
+    }
+    .wwdh2{
+        font-size: 8px;
+        
+    }
+    .wwdp{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        width: 210px;
+        margin: 87px auto;
+        
+    }
+    .wwdpa{
+        font-size: 12px;
+        font-weight: 400px;
+        width: 266px;
+        line-height: 19px;
+       
+    }
+    .wwdpic{
+        width: 142px;
+        height: 224px;
+        margin-top: 50px;
+        margin-left: 72px;
+    }
+    .prjctrow{
+        display: none;
+    }
+    .projectrowphone{
+        display:inline;
+        margin-left: -40px;
+        
+    }
+    .pwhdp{
+        display: none;
+    }
+    .pwhdh2{
+        font-size: 16px;
+        margin-top: 63px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 45.5px;
+    }
+    .done{
+        margin: 0px;
+        padding: 42.5px;
+    }
+    .our-events{
+        display: inline-block;
+        
+        color: #1D2130;
+    }
+    .evh1{
+        font-size: 48px;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+    .event1, .event2{
+        display: flex;
+        height: 191px;
+        border-radius: 20px;
+        width: 300px;
+
+        background-color: #F2C94C;
+    }
+    .apr{
+        background-color: #F2C94C;
+    }
+    .pnextevent{
+        margin-top: 40px;
+        font-size: 16px;
+        margin-left: 24px;
+        font-weight: 500;
+        
+    }
+    .pseminar{
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 82px;
+        margin-left:-114px ;
+        width: 146px;
+        height: 36px;
+    }
+    .h1our{
+        margin-bottom: 25px;
+    }
+    .event2{
+        margin-top: 19px;
+
+   
+    }
+    .footerimg{
+        width: 312px;
+        height: 229px;
+        border-radius: 20px;
+        
+        margin-top: 36px;
+    }
+    .imgp{
+        font-size: 20px;
+        width: 276px;
+        line-height: 24px;
+        position:unset;
+        margin-top: -179px;
+        margin-left: 160px;
+    }
+    .btns{
+        margin-top: 4150px;
+        margin-left: 21px;
+    }
+    .fbtn1{
+        width: 200px;
+        height: 51px;
+        
+    }
+    .fbtn2{
+        width: 115px;
+        height: 51px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    .uls{
+        display: none;
+    }
+    .lasth2{
+        font-size: 12px;
+        margin-left: -79px;
+        margin-top: 86px;
+        margin-bottom: 17px;
+    }
+    #logo2{
+        font-size: 24px;
+        margin-top: 26.31px;
+    }
+}

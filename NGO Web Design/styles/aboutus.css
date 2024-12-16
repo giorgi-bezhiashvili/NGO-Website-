@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.menupic{
+    height: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto" , sans-serif;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button:hover{
+    cursor:grab;
+}
+
+.logo{
+    font-weight: 700;
+    margin-left: 110px;
+}
+.marki{
+    font-family: "courgette" , sans-serif;
+    background-color: #ffffff;
+}
+.donatebtn{
+    margin-right: 110px;
+    width: 115px;
+    height: 43px;
+    background-color: #1D2130;
+    color: #ffffff;
+    border-radius: 4px;
+    border-color: #1D2130;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0 , 0.4);
+    
+}
+.li1{
+    margin-top: 16px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.journey{
+    font-size: 16px
+}
+.journeydiv{
+    background-color: #F2C94C;
+    border-radius: 20px;
+    margin: 123px auto;
+    width: 1280px;
+    height: 576px;
+    display: flex;
+
+    padding-left: 96px;
+}
+.img{
+    width: 612px;
+    height: 448px;
+    margin-right: 36px;
+    margin-top: 64px;
+}
+.texts{
+    margin-top : 128px;
+    width: 488.22px;
+    margin-right: 47.68px;
+}
+.h1{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.numbers{
+    display: flex;
+}
+.numh2{
+    font-size: 24px;
+    margin-top: 32px;
+    margin-right: 32px ;
+}
+.mark{
+    background-color: #F2C94C;
+    font-size: 12px;
+
+}
